@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <title>Klimatossen.dk</title>
+</head>
+<body>
+<!------------------------------------------HERO ------------------------------------->
+    <section class="hero">
+        <img class="hero-img" src="/media/GFX/KT-Logo.png">
+        <div class="hero-text">
+        <p class="hero-text-one">Tilmeld dig et arragement</p>
+        <p class="hero-text-two"> </p>
+        </div>
+    </section>
+<!------------------------------------------ NAVIGATION ------------------------------>
+<nav class="navbar">
+    <div class="logo"></div>
+
+    <ul class="nav-links">
+        <li>
+            <a href="/index.html">start</a>
+        </li>
+        <li>
+            <a href="/index.html/#co2">dit co2</a>
+        </li>
+        <li>
+            <a href="#">clean up</a>
+        </li>
+        <li>
+            <a href="/tilmeld.html">tilmeld dig</a>
+        </li>
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+<!-----------------------------------------MAIN CONTENT--------------------------------------->
+    <section class="main-page">
+        <section class="pageheader">
+            <p >“Deltag i eet af vore arrangementer, vær med til at gøre en forskel sammen med andre. Brug formularen herunder, eller ring og tal med een af vore Tosser”.</p>
+        </section>
+        
+         <!---------------- SECTION ONE ---------------->
+        <article class="section-one">
+            <section>
+                <h2 class="section-one-header">Arrangementer</h2>
+                <section class="section-one-text" id="arrangement-text">
+                 <h3>Affald i naturen</h3>
+                 <p>Affald har stor indflydelse på naturen og miljøet generelt. Henkastet affald er ikke blot et problem rent kosmetisk, men affald har forskellig indflydelse på miljøet. <br /><br />
+                    Jorden produsere affald selv, visne blade og døde dyr indgår i naturens eget kredsløb og er en del af den. Det affald mennesket producerer er tit og ofte syntestiskt eller kunstigt, 
+                    og er ikke en naturlig del af miljøet. Desuden inholder mege affald kemikalier eller giftstoffer der er direkte ødelæggende for den natur vi alle er en del af. <br /><br />
+                    Udover at henkastet affald forringer den oplevelse af naturen vi gerne vil have, ophobes forskellige affaldsstoffer i miljøet i længere eller kortere tid og kan ofte ende i oss selv som konsekvens.
+                    plastik nedbrydes med tiden f.eks. til microplast der optages i bland andet fisk i havet, og ender i vore maver hvis da ikke fiskene er døde af det forinden.<br /><br />
+                    Affald udgør i øvrigt ofte en ressourse og bør så vidt muligt genanvendes. havner det alligevel i naturen er det heldigt at flere og flere har overskud til at der er mange der har overskud og lyst til at gøre en forskel. <br /><br />
+                </p>
+                <h3>Vore Arrangementer</h3>
+                <p>Klimatossen afholder løbende en lang række arrangementer over hele landet. Brug vor tilmeldingformular for at finde et arrangement nær dog. og tag famillien med ud i naturen og gør en forskel.</p>
+                </section>
+            </section>
+           
+        </article>
+
+     
+
+        <!---------------- SECTION THREE ---------------->
+        <article class="section-four">
+            <section>
+                <h2 class="section-arrangement-header">Find arragement</h2>
+            <section class="section-arrangement">
+
+                <section class="arragement-content">
+                    <select id="region-selector" onchange="Swap(this, 'myImg');" style="width: 420px;">
+                        <option disabled selected>Vælg region</option>
+                        <option>Nordjylland</option>
+                        <option>Midtjylland</option>
+                        <option>Sønderjylland</option>
+                        <option>Fyn</option>
+                        <option>Sjælland og Bornholm</option>
+                    </select>
+                
+                    <div class="navn-felt-arrangement">
+                        <input type="attendees" name="attendees" id="attendees" placeholder="Antal Deltagere" class="input-felter">
+                    </div>
+                    <div class="navn-felt-arrangement">
+                        <input type="email" name="email" id="emailarr" placeholder="E-mail adresse" class="input-felter">
+                    </div>
+
+                    <div class="navn-felt-arrangement">
+                        <input type="number" name="number" id="number" placeholder="Telefon nummer"
+                            class="input-felter">
+                    </div>
+                    <div class="knapperne">
+                    <button type="button" id="send" class="send-btn">Send</button>
+                </section>
+                <section class="arragement-picture">
+                    <img id="myImg" src="/img/Map-Base.png" alt="" style="width: 50vh;">
+                </div>
+                </section>
+            </section>
+           
+        </article>
+
+       
+             <!-------------------- FOOTER -------------------->
+           <footer id="footer" class="section-footer">
+                <section class="footer-left">
+                    <h3 class="footer-headers">KlimaTossen NPO</h3>
+                    <p class="footer-text">
+                    Vesterbrogade 92<br />
+                    9000 Aalborg<br />
+                    info@klima-tossen.dk<br />
+                    9922 3344 (Åben man - fre: 08.00 - 16.00)
+                    </p>
+                    <h3 class="footer-headers">SAMARBEJDSPARTNERE:</h3>
+                    <p class="footer-text">
+                    https://www.dn.dk/<br />
+                    http://www.miljoeportal.dk
+                    </p>
+
+
+                </section>
+
+
+                <section class="footer-right">
+                    <form class="formen">
+                        <h3 id="footer-header">Ja Tak! Jeg vil gerne høre mere.</h3>
+                        <div class="navn-felt">
+                            <input type="text" name="navn" id="navn" placeholder="Fulde navn" class="input-felter">
+                        </div>
+
+                        <div class="navn-felt">
+                            <input type="text" name="hjemby" id="hjemby" placeholder="Hjem By" class="input-felter">
+                        </div>
+
+                        <div class="navn-felt">
+                            <input type="email" name="email" id="email" placeholder="E-mail adresse" class="input-felter">
+                        </div>
+                        
+                        <div class="navn-felt">
+                            <input type="number" name="number" id="number" placeholder="Telefon nummer"
+                                class="input-felter">
+                        </div>
+    
+                        <label for="samtale" >Få en samtale med Klimatossen</label>
+                        <input type="checkbox" id="samtale" name="samtale" value="samtale">
+                        <br />
+                        <label for="newsletter">Modtag Nyhedsbrev</label>
+                        <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+    
+                       
+    
+                        <div class="knapperne">
+                            <button type="reset" class="cancel-btn">Ryd felter</button>
+                            <button type="button" id="send" class="send-btn">Send</button>
+                        </div>
+    
+                    </form>
+                </section>
+           </footer>
+         </section>
+</body>
+<script src="/js/main.js"></script>
+<script src="/js/arrgal.js"></script>
+</html>
